@@ -19,7 +19,7 @@
 	h1 {
 		font-size: 2rem;
 		background: linear-gradient(to right, rgb(43, 92, 1), #6dc521 70%);
-		-webkit-background-clip: text;
+
 		-webkit-text-fill-color: transparent;
 		@include media-breakpoint-up(lg) {
 			font-size: 6rem;
@@ -103,9 +103,6 @@
 }
 
 .form-group {
-	label {
-		// color: $white;
-	}
 	.form-control {
 		color: $white !important;
 		background: none;
