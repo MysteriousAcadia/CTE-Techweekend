@@ -1,5 +1,9 @@
 /* Base */
 
+html {
+	scroll-behavior: smooth !important;
+}
+
 body {
 	line-height: 1.7;
 	color: #cfcfd1;
